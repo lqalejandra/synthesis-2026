@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import type { Team } from '../../types/teams'
 import { teams } from '../../types/teams'
+import { asset } from '../../lib/assets'
 
 export function MeetTheTeams() {
   const [activeSlug, setActiveSlug] = useState(teams[0]?.slug ?? '')
@@ -68,7 +69,7 @@ function TeamPanel({ team }: { team: Team }) {
       <div className="about-team-panel__gallery">
         {team.images.map((img, i) => (
           <figure key={`${team.slug}-img-${i}`} className="about-team-panel__figure">
-            <img src={img.src} alt={img.alt} loading="lazy" />
+            <img src={asset(img.src)} alt={img.alt} loading="lazy" />
           </figure>
         ))}
       </div>

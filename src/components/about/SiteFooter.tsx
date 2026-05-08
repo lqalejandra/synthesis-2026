@@ -1,3 +1,5 @@
+import { asset } from '../../lib/assets'
+
 const LINKEDIN =
   'https://www.linkedin.com/company/bfa-communication-design-txst-university/posts/?feedView=all'
 const PROGRAM_INFO =
@@ -13,10 +15,10 @@ export function SiteFooter() {
           <picture>
             <source
               media="(max-width: 840px)"
-              srcSet="/about/footer-bg-art-mobile.png"
+              srcSet={asset('/about/footer-bg-art-mobile.png')}
             />
             <img
-              src="/about/footer-bg-art.png"
+              src={asset('/about/footer-bg-art.png')}
               alt=""
               decoding="async"
             />
@@ -29,7 +31,7 @@ export function SiteFooter() {
           <div className="about-footer__brand-top">
             <img
               className="about-footer__logo-synthesis"
-              src="/about/footer-synthesis.svg"
+              src={asset('/about/footer-synthesis.svg')}
               alt="Synthesis"
               width={202}
               height={60}
@@ -42,7 +44,7 @@ export function SiteFooter() {
           <div className="about-footer__txst-wrap">
             <img
               className="about-footer__logo-txst"
-              src="/about/footer-txst.png"
+              src={asset('/about/footer-txst.png')}
               alt="Texas State University"
               width={295}
               height={30}
@@ -84,7 +86,7 @@ export function SiteFooter() {
             <div className="about-footer__thanks-row">
               <div className="about-footer__filmlab">
                 <img
-                  src="/about/footer-filmlab.png"
+                  src={asset('/about/footer-filmlab.png')}
                   alt="San Marcos Film Lab"
                   width={181}
                   height={89}
@@ -100,7 +102,7 @@ export function SiteFooter() {
           </div>
           <div className="about-footer__bfa-mark">
             <img
-              src="/about/footer-bfa-mark.png"
+              src={asset('/about/footer-bfa-mark.png')}
               alt="BFA Communication Design — bfa com des"
               width={125}
               height={124}

@@ -2,6 +2,7 @@ import gsap from 'gsap'
 import { useCallback, useEffect, useId, useLayoutEffect, useRef, useState } from 'react'
 import type { PortfolioItem } from '../types/portfolio'
 import { getExtraFields, resolveItemLink } from '../lib/portfolio'
+import { asset } from '../lib/assets'
 
 type ExitAccent = 'pink' | 'cyan' | 'yellow'
 
@@ -131,12 +132,12 @@ function ExitReviewCard({
 
   const image =
     typeof item.image === 'string' && item.image.trim()
-      ? item.image
+      ? asset(item.image)
       : undefined
 
   const imageAlt =
     typeof item.imageAlt === 'string' && item.imageAlt.trim()
-      ? item.imageAlt
+      ? asset(item.imageAlt)
       : undefined
 
   const tabs = exit.disciplines.slice(0, 3)
@@ -295,7 +296,7 @@ function ExitReviewCard({
           aria-pressed={showAbout}
           aria-label={showAbout ? 'Show portrait' : 'Show about'}
         >
-          <img src="/branding/swap-vertical.svg" alt="" width={24} height={32} />
+          <img src={asset('/branding/swap-vertical.svg')} alt="" width={24} height={32} />
         </button>
         <div className="exit-card__actions-spacer" aria-hidden />
         <div className="exit-card__actions-right">
@@ -308,7 +309,7 @@ function ExitReviewCard({
               aria-label={`${title} on LinkedIn`}
             >
               <img
-                src="/branding/linkedin-in-bug.svg"
+                src={asset('/branding/linkedin-in-bug.svg')}
                 alt=""
                 width={18}
                 height={18}
@@ -325,7 +326,7 @@ function ExitReviewCard({
             >
               <span>Website</span>
               <img
-                src="/branding/external-link-sm.svg"
+                src={asset('/branding/external-link-sm.svg')}
                 alt=""
                 width={16}
                 height={16}
@@ -372,7 +373,7 @@ export function PortfolioCard({ item }: PortfolioCardProps) {
 
   const image =
     typeof item.image === 'string' && item.image.trim()
-      ? item.image
+      ? asset(item.image)
       : undefined
 
   const cardInner = (

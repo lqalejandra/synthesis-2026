@@ -1,6 +1,7 @@
 import { useEffect, useId, useState } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import { LOGO_MARK_SRC } from '../constants/branding'
+import { asset } from '../lib/assets'
 
 const CONNECT_INSTAGRAM = 'https://www.instagram.com/txstcomdesexitreview/'
 const CONNECT_LINKEDIN =
@@ -59,7 +60,7 @@ export function Navbar() {
             <span>Archive</span>
             <img
               className="site-navbar__pill-icon"
-              src="/branding/external-link-sm.svg"
+              src={asset('/branding/external-link-sm.svg')}
               alt=""
               width={16}
               height={16}
@@ -131,7 +132,7 @@ export function Navbar() {
                 <span>Archive</span>
                 <img
                   className="site-navbar__drawer-link-icon"
-                  src="/branding/external-link-sm.svg"
+                  src={asset('/branding/external-link-sm.svg')}
                   alt=""
                   width={16}
                   height={16}

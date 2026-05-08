@@ -1,3 +1,5 @@
+import { asset } from '../lib/assets'
+
 /**
  * Home hero — Figma « Hero » (3144:8895)
  * https://www.figma.com/design/XuEGp4CmdyWpOpkBHEUvcL/Exit-Review-sp-2026?node-id=3144-8895
@@ -8,7 +10,7 @@ export function ShowcaseHero() {
       <div className="showcase-hero__bg" aria-hidden>
         <img
           className="showcase-hero__bg-img"
-          src="/hero/showcase-bg.png"
+          src={asset('/hero/showcase-bg.png')}
           alt=""
           width={2592}
           height={1440}
@@ -20,7 +22,7 @@ export function ShowcaseHero() {
       <div className="showcase-hero__inner">
         <img
           className="showcase-hero__hero-lockup"
-          src="/hero/synthesis-hero-lockup.svg"
+          src={asset('/hero/synthesis-hero-lockup.svg')}
           alt="synthesis — process made visible"
           decoding="async"
         />

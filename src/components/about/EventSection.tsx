@@ -1,3 +1,5 @@
+import { asset } from '../../lib/assets'
+
 const MAPS_URL =
   'https://www.google.com/maps/search/?api=1&query=1500+E+4th+St,+Austin,+TX+78702'
 
@@ -34,7 +36,7 @@ export function EventSection() {
                 <div className="about-tile__time">
                   <span>6pm</span>
                   <span className="about-tile__arrow" aria-hidden>
-                    <img src="/about/event-arrow.svg" alt="" width={11} height={10} />
+                    <img src={asset('/about/event-arrow.svg')} alt="" width={11} height={10} />
                   </span>
                   <span>9pm</span>
                 </div>
@@ -58,7 +60,7 @@ export function EventSection() {
                   rel="noreferrer"
                 >
                   Open in maps
-                  <img src="/about/external-link.svg" alt="" width={16} height={16} />
+                  <img src={asset('/about/external-link.svg')} alt="" width={16} height={16} />
                 </a>
               </div>
             </article>
