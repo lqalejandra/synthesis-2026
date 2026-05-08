@@ -1,0 +1,112 @@
+{
+  "teams": [
+    {
+      "slug": "branding",
+      "navLabel": "Branding",
+      "title": "Branding Team",
+      "description": "The Photography committee documented the full scope of Synthesis, moving between photo and video to capture the graduating class, the process, and the people behind it all with care and intention.",
+      "nameColumns": [
+        ["Savannah Flores", "Juliet Work", "Kristina Sustaita", "Jayda Robertson"],
+        ["Cogan McBride", "Jackson Pickett", "Heidi Brandt", "Nicholas Bookout"],
+        ["Grace Nielsen", "Gabriel Irvine", "Mason Nguyen", "Mason Nguyen"],
+        ["Mason Nguyen", "Mason Nguyen", "Mason Nguyen", "Mason Nguyen"]
+      ],
+      "images": [
+        { "src": "/about/team-1.png", "alt": "Branding team photography on set" },
+        { "src": "/about/team-2.jpg", "alt": "Team collaborating during production" },
+        { "src": "/about/team-3.jpg", "alt": "Behind the scenes portrait session" },
+        { "src": "/about/team-4.jpg", "alt": "Studio documentation moment" }
+      ]
+    },
+    {
+      "slug": "web",
+      "navLabel": "Web",
+      "title": "Web Team",
+      "description": "The Web committee builds the digital experience for Synthesis—structuring content, refining interactions, and ensuring the exhibition reads clearly across devices.",
+      "nameColumns": [
+        ["Alex Kim", "Jordan Lee", "Sam Rivera", "Taylor Chen"],
+        ["Riley Park", "Casey Nguyen", "Morgan Blake", "Jamie Ortiz"],
+        ["Drew Patel", "Sky Logan", "Remy Santos", "Jo Avery"],
+        ["Noel Brooks", "Eden Ward", "Gray Miller", "Bay Collins"]
+      ],
+      "images": [
+        { "src": "/about/team-2.jpg", "alt": "Web team working at laptops" },
+        { "src": "/about/team-1.png", "alt": "Design critique on screen" },
+        { "src": "/about/team-3.jpg", "alt": "Collaborative wireframing" },
+        { "src": "/about/team-4.jpg", "alt": "Responsive layout review" }
+      ]
+    },
+    {
+      "slug": "experience",
+      "navLabel": "Experience",
+      "title": "Experience Team",
+      "description": "The Experience committee shapes how guests move through the venue—signage, spatial rhythm, and tactile moments that make the show intuitive and memorable.",
+      "nameColumns": [
+        ["Avery Cole", "Blair Diaz", "Cameron Fox", "Dakota Gray"],
+        ["Ellis Hart", "Finley James", "Harper Knox", "Indigo Lane"],
+        ["Jules Marx", "Kendall Nash", "Lennox Pike", "Marlowe Quinn"],
+        ["Nico Reed", "Oakley Shaw", "Parker Tate", "Quincy Vail"]
+      ],
+      "images": [
+        { "src": "/about/team-3.jpg", "alt": "Spatial planning discussion" },
+        { "src": "/about/team-4.jpg", "alt": "Wayfinding mockups" },
+        { "src": "/about/team-1.png", "alt": "Gallery layout exploration" },
+        { "src": "/about/team-2.jpg", "alt": "Material samples on table" }
+      ]
+    },
+    {
+      "slug": "social",
+      "navLabel": "Social Media",
+      "title": "Social Media Team",
+      "description": "The Social committee carries Synthesis online—crafting campaigns, capturing moments, and building community around the graduating class.",
+      "nameColumns": [
+        ["Rowan West", "Sage Young", "Tatum Zane", "Urban Abbott"],
+        ["Vesper Birch", "Winter Cruz", "Xen Dale", "Yarrow Ellis"],
+        ["Zion Fox", "Arrow Gale", "Bright Hale", "Cedar Iris"],
+        ["Dew Jade", "Elm Kai", "Fern Lux", "Grove Max"]
+      ],
+      "images": [
+        { "src": "/about/team-1.png", "alt": "Content shoot for social" },
+        { "src": "/about/team-3.jpg", "alt": "Storyboarding posts" },
+        { "src": "/about/team-2.jpg", "alt": "On-site capture" },
+        { "src": "/about/team-4.jpg", "alt": "Campaign review" }
+      ]
+    },
+    {
+      "slug": "promotion",
+      "navLabel": "Promotion",
+      "title": "Promotion Team",
+      "description": "The Promotion committee spreads the word—posters, partnerships, and press-ready storytelling that invite Austin (and beyond) into the room.",
+      "nameColumns": [
+        ["Haven North", "Ivy Oak", "Juniper Pearl", "Kite Quill"],
+        ["Laurel Reed", "Meadow Sage", "Nova Tide", "Olive Vale"],
+        ["Prairie Wren", "Quartz Xylem", "River Yarrow", "Summit Zinnia"],
+        ["Acorn Bloom", "Brook Cedar", "Clove Delta", "Drift Ember"]
+      ],
+      "images": [
+        { "src": "/about/team-4.jpg", "alt": "Poster wall review" },
+        { "src": "/about/team-1.png", "alt": "Print production check" },
+        { "src": "/about/team-2.jpg", "alt": "Partnership outreach" },
+        { "src": "/about/team-3.jpg", "alt": "Launch planning" }
+      ]
+    },
+    {
+      "slug": "fundraising",
+      "navLabel": "Fundraising",
+      "title": "Fundraising Team",
+      "description": "The Fundraising committee supports the show’s budget—sponsors, incentives, and careful coordination so every team can ship at full fidelity.",
+      "nameColumns": [
+        ["Elm Foster", "Glade Harper", "Heath Irving", "Juniper Knight"],
+        ["Lyric Moss", "Marin Noble", "North Oakley", "Orion Pratt"],
+        ["Pax Rowan", "Quest Sterling", "Ridge Talon", "Shale Unity"],
+        ["Vale Winter", "Wren Xavier", "Yale Zephyr", "Arc Brady"]
+      ],
+      "images": [
+        { "src": "/about/team-2.jpg", "alt": "Sponsor packet review" },
+        { "src": "/about/team-4.jpg", "alt": "Budget planning session" },
+        { "src": "/about/team-1.png", "alt": "Team celebration" },
+        { "src": "/about/team-3.jpg", "alt": "Donor thank-you prep" }
+      ]
+    }
+  ]
+}

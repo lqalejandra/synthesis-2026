@@ -1,0 +1,43 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 293.389 181.156" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="logo">
+<g id="Vector" filter="url(#filter0_n_0_12)">
+<path d="M105.45 116.74C99.9241 116.74 94.6483 114.66 90.5708 110.932C89.6222 110.067 88.3906 109.601 87.159 109.601C86.3602 109.601 85.5613 109.784 84.829 110.167C76.5908 114.41 67.3374 116.64 58.0174 116.624C42.4729 116.59 27.8938 110.5 16.9261 99.4829C5.9751 88.4662 -0.0496208 73.855 0.000307859 58.3118C0.0502365 42.7686 6.12488 28.1907 17.1425 17.2239C28.1601 6.2572 42.7891 0.249622 58.3169 0.282905C67.6203 0.299547 76.8737 2.57943 85.0953 6.87294C85.8276 7.25569 86.6265 7.43875 87.4253 7.45539C88.6569 7.45539 89.8885 7.00607 90.8371 6.14071C94.9313 2.42966 100.224 0.399396 105.749 0.416037L177.713 0.599094C188.098 0.632377 197.202 8.0212 199.365 18.1725C199.798 20.2194 201.446 21.7837 203.509 22.1165C203.776 22.1665 204.042 22.1831 204.292 22.1831C206.072 22.1831 207.77 21.2512 208.685 19.6702L216.075 6.97279C218.621 2.59607 223.181 0 228.241 0C233.3 0 237.844 2.646 240.373 7.03935L265.987 51.572L291.517 96.1546C294.03 100.548 294.013 105.79 291.467 110.167C288.921 114.543 284.377 117.156 279.301 117.156L227.924 117.073L178.911 116.907C178.811 116.907 178.728 116.907 178.628 116.907C178.212 116.923 177.796 116.94 177.397 116.94L105.433 116.757L105.45 116.74ZM193.391 49.4086C191.776 49.4086 190.228 50.2573 189.396 51.7051L165.863 92.2937C163.55 96.2877 163.533 101.064 165.83 105.058C168.127 109.068 172.254 111.465 176.864 111.481H178.728C178.845 111.481 178.945 111.481 179.061 111.481C189.596 110.766 197.867 101.929 197.901 91.3785L198.001 54.0349C198.001 51.9548 196.603 50.1075 194.589 49.575C194.189 49.4752 193.79 49.4086 193.391 49.4086ZM89.955 10.8336C89.5057 10.8336 89.073 10.8835 88.6403 11C87.1424 11.3994 85.9108 12.4645 85.295 13.8956C84.13 16.6249 83.5309 19.5371 83.5142 22.5326L83.3312 94.4904C83.3312 97.5025 83.9137 100.415 85.062 103.144C85.6612 104.575 86.8928 105.64 88.3906 106.056C88.8233 106.173 89.2727 106.239 89.7054 106.239C90.7872 106.239 91.8523 105.906 92.7344 105.241C99.1086 100.515 104.567 94.4072 108.545 87.5676C113.621 78.7975 116.317 68.796 116.351 58.6114C116.384 48.4268 113.738 38.3919 108.695 29.6052C104.767 22.7489 99.3416 16.6082 92.984 11.8487C92.102 11.1831 91.0368 10.8336 89.955 10.8336Z" fill="url(#paint0_linear_0_12)"/>
+</g>
+</g>
+<defs>
+<filter id="filter0_n_0_12" x="0" y="0" width="293.389" height="117.156" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feTurbulence type="fractalNoise" baseFrequency="1 1" stitchTiles="stitch" numOctaves="3" result="noise" seed="8869" />
+<feColorMatrix in="noise" type="luminanceToAlpha" result="alphaNoise" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise1">
+<feFuncA type="discrete" tableValues="1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise1" result="noise1Clipped" />
+<feComponentTransfer in="alphaNoise" result="coloredNoise2">
+<feFuncA type="discrete" tableValues="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 "/>
+</feComponentTransfer>
+<feComposite operator="in" in2="shape" in="coloredNoise2" result="noise2Clipped" />
+<feFlood flood-color="rgba(0, 0, 0, 0.1)" result="color1Flood" />
+<feComposite operator="in" in2="noise1Clipped" in="color1Flood" result="color1" />
+<feFlood flood-color="rgba(255, 250, 175, 0.13)" result="color2Flood" />
+<feComposite operator="in" in2="noise2Clipped" in="color2Flood" result="color2" />
+<feMerge result="effect1_noise_0_12">
+<feMergeNode in="shape" />
+<feMergeNode in="color1" />
+<feMergeNode in="color2" />
+</feMerge>
+</filter>
+<linearGradient id="paint0_linear_0_12" x1="-0.0350025" y1="63.596" x2="266.411" y2="95.8925" gradientUnits="userSpaceOnUse">
+<stop offset="0.0140161" stop-color="#02A1DD"/>
+<stop offset="0.158654" stop-color="#2CAEDD"/>
+<stop offset="0.293455" stop-color="#9DC5CD"/>
+<stop offset="0.337159" stop-color="#D3D89C"/>
+<stop offset="0.435987" stop-color="#F7E841" stop-opacity="0.9"/>
+<stop offset="0.623519" stop-color="#F8EB59" stop-opacity="0.9"/>
+<stop offset="0.7" stop-color="#F4D462"/>
+<stop offset="0.745192" stop-color="#F8A781"/>
+<stop offset="0.875779" stop-color="#E9068C"/>
+</linearGradient>
+</defs>
+</svg>
